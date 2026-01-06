@@ -102,16 +102,7 @@ public class BoatManager : MonoBehaviour
         // Il devrait y avoir un moyen de réunir mes Prefab dans une liste et
         // d'en choisir un selon sa place dans la liste...
 
-        // choisir index au pif
-        int randomIndex = Random.Range(0, length);
-
-        // récupérer un bateau ou prefab au hasard dans la liste
-        GameObject boats = boats[randomIndex];
-
-        GameObject boatsInstance = Instantiate(boats, transform);
-        boatsInstance.gameObject.name = $"Boat {System.Guid.NewGuid()}";
-        boatsInstance.transform.position = worldPosition;
-        boatsInstance.Add(boatsInstance.GetComponent<Boat>());
+        return randomBoat;
     }
 
     private void LateUpdate()
