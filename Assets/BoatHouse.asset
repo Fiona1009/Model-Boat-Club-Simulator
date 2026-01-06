@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 345e7838e420f194392f2eaeecd20160, type: 3}
-  m_Name: ScriptableObjetBoat
+  m_Name: BoatHouse
   m_EditorClassIdentifier: Assembly-CSharp::ScriptableObjetBoat
-  maxSpeed: 0.95
-  steeringSpeed: 4.5
-  maxForce: 0.03
-  neighborhoodRadius: 4
+  maxSpeed: 6.77
+  steeringSpeed: 1.4
+  maxForce: 0.178
+  neighborhoodRadius: 1
   separationRadius: 2.4
-  separationAmount: 1.1
-  cohesionAmount: 0
-  alignmentAmount: 3
+  separationAmount: 1.93
+  cohesionAmount: 0.42
+  alignmentAmount: 0.94

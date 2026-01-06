@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 114663801763493746}
   - component: {fileID: 8576074011543180583}
   m_Layer: 0
-  m_Name: Boat House E
+  m_Name: Boat Speed E
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
